@@ -15,19 +15,19 @@ When you are done press Ctrl + C and it will stop socat, close the port in AWS a
 
 
 
-Before you start you will need a few things
+==Before you start you will need a few things==
 
 sudo apt install socat
 
 sudo snap install aws-cli --classic
 
 
-Then you need to confifure AWS CLI (https://docs.aws.amazon.com/cli/latest/userguide/aws-cli.pdf)
+==Then you need to confifure AWS CLI== (https://docs.aws.amazon.com/cli/latest/userguide/aws-cli.pdf)
 
 aws configure
 
 
-You will need to edit the XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX in the script to your own information such as
+==You will need to edit the XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX in the script to your own information such as==
 
 --group-ids XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX (replace XXXXXX with your own firewall sg from AWS console)
 
