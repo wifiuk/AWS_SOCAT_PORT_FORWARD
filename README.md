@@ -9,13 +9,15 @@ Usage
 
 ==What does it do?==
 
+So run this on the AWS instance you have.
+
 It will take a port number you give it, then go and open that port on the AWS firewall via awscli. It will then use that same port and open a SOCAT listener and send that to an IP or domain name of your choosing. For me it will always be static so it was just hardcoded in, but you can do what you like. That fact you are here, you will probably understand how to edit it for your own usage.
 
 When you are done press Ctrl + C and it will stop socat, close the port in AWS and quit.
 
 
 
-==Before you start you will need a few things==
+==Before you start you will need a few things on the AWS instance==
 
 sudo apt install socat
 
