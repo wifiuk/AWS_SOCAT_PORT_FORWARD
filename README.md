@@ -10,6 +10,7 @@ Usage
 Before you start you will need a few things
 
 sudo apt install socat
+
 sudo snap install aws-cli --classic
 
 
