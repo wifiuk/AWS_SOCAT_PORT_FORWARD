@@ -37,6 +37,7 @@ echo -e "${RED}$ip${NC} and change the port to ${RED}$1${NC}"
 
 #Enable port forwarding
 echo -e "running this command - socat TCP4-LISTEN:${RED}$1${NC},fork TCP4:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:${RED}$1${NC}"
+echo " When you are finished press Ctrl + C to quit and run clean-up commands"
 
 socat TCP4-LISTEN:$1,fork TCP4:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:$1
 # Press Ctrl + C to quit
