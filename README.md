@@ -2,10 +2,14 @@
 
 This script is designed for using AWS and SOCAT as a forwarder to another IP or Server, for Red Team engagements where you want to hide your home console location .
 
+<div align=center>
+<img src="https://github.com/wifiuk/AWS_SOCAT_PORT_FORWARD/blob/main/AWS_SOCAT.png">
+</div align>
+
+
 Usage
 
 ./fwd-scripts.sh PORT-NUMBER
-
 
 ==What does it do?==
 
